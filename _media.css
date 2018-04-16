@@ -1,0 +1,178 @@
+﻿
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+}
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 321px) {
+    .vertical-align{display: block!important;}
+    section.first-screen{padding-top: 50px!important;}
+    .debts .income{margin-top: 0!important;}
+    .debts .bank .item:nth-child(2),.debts .income .item{margin-bottom: 80px!important;}
+    .relation .advantage-text{margin-top: 20px;}
+    .help .help-bullet-container .item .text{width: 80%!important;}
+    .consultate .form-container{margin-top: 40px!important;}
+    .consultate .form-container input, .consultate2 .form-container input{margin-bottom: 20px!important;}
+    .step .divider{margin-bottom: 10px!important;}
+    .step h3{font-size: 1.5em!important;}
+    .step p{font-size: 1em!important;}
+    .step-2 .divider, .step-4 .divider{float:none!important}
+    .step-2{text-align: left!important;margin-top: 40px!important;}
+    .step-3{margin-top: 70px!important;}
+    .step-4{text-align: left!important;margin-top:40px!important;}
+    .debt-process .path .line{height: 160px!important;}
+    .debt-process .path-active-mobile .line{height: 160px!important;}
+    .line.anim-class.last-line {height: 200px!important;}
+    .effects .col-sm-4.col-xs-12{margin-bottom: 20px!important;}
+    .effects .col-sm-4.col-xs-12:last-of-type{margin-bottom: 0!important}
+    .services .service{margin-top: 20px;}
+    .recomend .item .recomend-container{margin-bottom: 20px !important;}
+    #recomend-carousel .carousel-control{top: 400px!important;}
+    .press .press-container{margin-bottom: 20px !important;}
+    #press-carousel .carousel-control{top: 245px!important;}
+    .slowly .item{font-size: 1.2em!important;}
+    .slowly .item .number{font-size: 3em!important;}
+    .slowly .item .text{width: 75%!important;}
+    .phonecall input{font-size: 1.2em!important;}
+    .phonecall button{padding: 12px 0px!important;font-size: 1.5em!important;}
+    .faq .collapse-btn{font-size: 1.2em!important;}
+    .map{padding: 0px!important;}
+    .map .contacts-container .contact-block .text{font-size: 1em!important;}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 322px) and (max-width:991px) {
+    .vertical-align{display: block!important;}
+    section.first-screen{padding-top: 50px!important;}
+    .debts .income{margin-top: 0!important;}
+    .debts .bank .item:nth-child(2),.debts .income .item{margin-bottom: 80px!important;}
+    .relation .advantage-text{margin-top: 20px;}
+    .help .help-bullet-container .item .text{width: 80%!important;}
+    .consultate .form-container{margin-top: 40px!important;}
+    .consultate .form-container form, .consultate2 .form-container form{text-align: center;}
+    .consultate .form-container input, .consultate2 .form-container input{margin-bottom: 20px!important;margin-right: 0px!important;}
+    .step .divider{margin-bottom: 10px!important;}
+    .step h3{font-size: 1.5em!important;}
+    .step p{font-size: 1em!important;}
+    .step-2 .divider, .step-4 .divider{float:none!important}
+    .step-2{text-align: left!important;margin-top: 60px!important;}
+    .step-3{margin-top: 90px!important;}
+    .step-4{text-align: left!important;margin-top:40px!important;}
+    .debt-process .path .line{height: 160px!important;}
+    .debt-process .path-active-mobile .line{height: 160px!important;}
+    /*.line.anim-class.last-line {height: 200px!important;}*/
+    .effects .col-sm-4.col-xs-12{margin-bottom: 20px!important;}
+    .effects .col-sm-4.col-xs-12:last-of-type{margin-bottom: 0!important}
+    .services .service{margin-top: 20px;}
+    .recomend .item .recomend-container{margin-bottom: 20px !important;}
+    #recomend-carousel .carousel-control{top: 312px!important;}
+    .press .press-container{margin-bottom: 20px !important;}
+    #press-carousel .carousel-control{top: 245px!important;}
+    .slowly .item{font-size: 1.2em!important;}
+    .slowly .item .number{font-size: 3em!important;}
+    .slowly .item .text{width: 75%!important;}
+    .phonecall input{font-size: 1.2em!important;}
+    .phonecall button{padding: 12px 0px!important;font-size: 1.5em!important;}
+    .faq .collapse-btn{font-size: 1.2em!important;}
+    .map{padding: 0px!important;min-height: auto!important}
+    .map .contacts-container .contact-block .text{font-size: 1em!important;}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 321px) {
+    section.first-screen{padding-top: 50px!important;}
+    .debts .income{margin-top: 0!important;}
+    .debts .bank .item:nth-child(2),.debts .income .item{margin-bottom: 80px!important;}
+    .relation .advantage-text{margin-top: 20px;}
+    .help .help-bullet-container .item .text{width: 80%!important;}
+    .consultate .form-container{margin-top: 40px!important;}
+    .consultate .form-container input, .consultate2 .form-container input{margin-bottom: 20px!important;}
+    .step .divider{margin-bottom: 10px!important;}
+    .step h3{font-size: 1.5em!important;}
+    .step p{font-size: 1em!important;}
+    .step-2 .divider, .step-4 .divider{float:none!important}
+    .step-2{text-align: left!important;margin-top: 60px!important;}
+    .step-3{margin-top: 90px!important;}
+    .step-4{text-align: left!important;margin-top: 
+        40px!important;}
+    .debt-process .path .line{height: 160px!important;}
+    .debt-process .path-active-mobile .line{height: 160px!important;}
+    .line.anim-class.last-line {height: 200px!important;}
+    .effects .col-sm-4.col-xs-12{margin-bottom: 20px!important;}
+    .effects .col-sm-4.col-xs-12:last-of-type{margin-bottom: 0!important}
+    .services .service{margin-top: 20px;}
+    .recomend .item .recomend-container{margin-bottom: 20px !important;}
+    #recomend-carousel .carousel-control{top: 400px!important;}
+    .press .press-container{margin-bottom: 20px !important;}
+    #press-carousel .carousel-control{top: 245px!important;}
+    .slowly .item{font-size: 1.2em!important;}
+    .slowly .item .number{font-size: 3em!important;}
+    .slowly .item .text{width: 75%!important;}
+    .phonecall input{font-size: 1.2em!important;}
+    .phonecall button{padding: 12px 0px!important;font-size: 1.5em!important;}
+    .faq .collapse-btn{font-size: 1.2em!important;}
+    .map{padding: 0px!important;min-height: auto!important}
+    .map .contacts-container .contact-block .text{font-size: 1em!important;}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+    section.first-screen{padding-top: 200px!important;}
+    .debts .income{margin-top: 140px!important;}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .consultate .form-container form, .consultate2 .form-container form{text-align: center;}
+    .consultate .form-container input, .consultate2 .form-container input{margin-bottom: 20px!important;}
+    section.first-screen{padding-top: 200px!important;}
+    .debts .income{margin-top: 140px!important;}
+    .top-menu a{font-size: 1.0em!important;}
+    .top-menu.stickytop a{padding: 10px 10px!important;}
+}
+@media (width : 414px){
+    #press-carousel .carousel-control {top: 215px!important;}
+}
+@media (width : 568px){
+    .step-2{margin-top: 82px!important;}
+    .step-3{margin-top: 88px!important;}
+    .step-4{margin-top:62px!important;}
+    #recomend-carousel .carousel-control{top: 190px!important;}
+    #press-carousel .carousel-control {top: 215px!important;}
+    .slowly .item .text {width: 89%!important;}
+}
+@media (min-width : 667px) and (max-width:991px){
+    .step-2{margin-top: 80px!important;}
+    .step-3{margin-top: 110px!important;}
+    .step-4{margin-top:62px!important;}
+    #recomend-carousel .carousel-control{top: 170px!important;}
+    #press-carousel .carousel-control {top: 185px!important;}
+    .slowly .item .text {width: 89%!important;}
+    .map h2{font-size: 2.0em!important;margin-bottom: 20px!important;}
+    .map .contacts-container .contact-block .text {font-size: 1.286em!important;}
+}
